@@ -20,11 +20,27 @@ h1, h2 {
     color: #252525;
 }
 
-nav {
-    float: right;
-}
-
 #logo {
     float: left;
     font-size: 200%;
+}
+
+/* menu styling */
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+}
+
+menu a:hover {
+    text-decoration: underline;
 }
