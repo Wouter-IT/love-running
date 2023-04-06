@@ -244,6 +244,42 @@ footer {
     column-gap: 0;
 }
 
+/* makes it so all images fill up their width nicely */
 #photos > img {
     width: 100%;
+}
+
+/* Media queries */
+
+/* For med-large screen sizes from 1200px and below */
+/* Chosen because screen starts to distort when around 1200 px (test by taking a large resolution and reduce the siz eof the viewport */
+@media screen and (max-width: 1200px) {
+    #club-ethos {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #ethos-section-header {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #left-about, #right-about {
+        width: 100%;
+        float: left;
+        padding:0 px;
+    }
+
+    #center-about {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }
+
 }
