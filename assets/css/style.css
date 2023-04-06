@@ -213,3 +213,25 @@ hr {
 #times h2 {
     color: #fafafa;
 }
+
+/* footer elements */
+footer {
+    height: 150px;
+}
+
+.socials {
+    text-align: center;
+    list-style-type: none;
+}
+
+.socials > li {
+    display: inline;
+    margin-left: 30px;
+}
+
+.socials i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
