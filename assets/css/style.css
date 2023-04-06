@@ -28,7 +28,11 @@ h1, h2 {
 /* menu styling */
 #menu {
     font-size: 110%;
-    letter-spacing: 4px;
+    letter-spacing: 4px;    
+}
+
+#menu, #logo {
+    line-height: 75px;
 }
 
 #menu li {
@@ -39,8 +43,13 @@ h1, h2 {
 
 #menu a {
     text-decoration: none;
+    color: inherit;
 }
 
-menu a:hover {
-    text-decoration: underline;
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
 }
