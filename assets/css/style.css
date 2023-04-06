@@ -22,13 +22,15 @@ h1, h2 {
 
 #logo {
     float: left;
-    font-size: 200%;
+    font-size: 280%;
+    margin-left: 30px
 }
 
 /* menu styling */
 #menu {
     font-size: 110%;
-    letter-spacing: 4px;    
+    letter-spacing: 4px;
+        
 }
 
 #menu, #logo {
@@ -105,4 +107,32 @@ h1, h2 {
     right: 150px;
 
     position: absolute;
+}
+
+/* club ethos section */
+
+#club-ethos {
+    height: 600px;
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color: blue;
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: red;
+}
+
+#center-about {
+    width: 33;
+        /* center the div */
+        /* Note: must place the center div as last div in the html in order to work */
+    margin: 0 auto;
+    background-color: purple;
 }
