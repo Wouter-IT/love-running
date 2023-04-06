@@ -289,6 +289,10 @@ footer {
         padding: 0px;
     }
 
+    #photos {
+        column-count: 3;
+    }
+
 }
 
 /* for medium screens smaller than 950px */
@@ -324,4 +328,10 @@ footer {
         text-align: center;
         padding: 0 20px;
     }
+    
+    #photos {
+        column-count: 2;
+    }
+
+    
 }
