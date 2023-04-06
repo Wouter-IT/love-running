@@ -119,20 +119,45 @@ h1, h2 {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: blue;
 }
 
 #right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: red;
 }
 
 #center-about {
-    width: 33;
-        /* center the div */
-        /* Note: must place the center div as last div in the html in order to work */
+    width: 33%;
     margin: 0 auto;
-    background-color: purple;
+    background-color: green;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.about-heading {
+    width: 60%;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+#left-about-heading {
+    float: right;
+}
+
+#right-about-heading {
+    float: left;
+}
+
+#right-about-heading h2 {
+    text-align: right;
+}
+
+#right-about-heading p {
+    text-align: right;
 }
